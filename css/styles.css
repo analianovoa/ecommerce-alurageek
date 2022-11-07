@@ -1,0 +1,29 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-gris);
+    color: var(--fuente-ceniza);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding: 0;
+}
+
+a {
+    color: var(--boton-azul);
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+}
