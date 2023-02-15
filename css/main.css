@@ -1,10 +1,9 @@
-
 .banner {
-    height: 100px;
+    height: 0px;
     background-image: url(../assets/banner/banner_img.png);
     background-size: 100vw;
     background-repeat: no-repeat;
-    padding: 10rem;
+    padding: 15vw;
 }
 
 .banner__container {
@@ -31,7 +30,41 @@
     border: none;
     color: var(--background-blanco);
     height: 50px;
-    width: 150px;
+    width: 100px;
     padding: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+}
+
+.store {
+	display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.store__category__header {
+	width: 90%;
+	display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 0;
+}
+
+.store__category__header__title {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.store__category__header__link {
+	display: block;
+	padding: 2%;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.store__category__card-container {
+	padding: 0px 25px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 60vw;
 }
