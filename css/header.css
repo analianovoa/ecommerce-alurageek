@@ -1,9 +1,9 @@
 .header {
     background-color: var(--background-blanco);
-    padding: 30px 250px;
+    padding: 2vw 5vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .title__container {
