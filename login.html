@@ -26,8 +26,8 @@
                     <img src="assets/icon/geek_icon.svg" alt="Logo Geek" class="title__logo__img">
                 </a>
                 <div class="title__search">
-                    <label for="title__search__input" class="title__search__label"></label>
-                    <input type="text" placeholder="¿Qué deseas buscar?" class="title__search__input">
+                    <label for="title__search__input" class="title__search__label" id="title_search_Id"></label>
+                    <input type="text" placeholder="¿Qué deseas buscar?" class="title__search__input" id="title_search_Id">
                 </div>
             </div>
         </section>
@@ -43,6 +43,7 @@
                 placeholder="Escriba su email"
                 required
                 data-email
+                id="email"
               />
               <input
                 class="login_input__name"
@@ -50,6 +51,7 @@
                 placeholder="Escriba su contraseña"
                 required
                 data-password
+                id="pass"
               />
               <button type="submit" class="login_btn">Entrar</button>
             </form>
@@ -78,7 +80,7 @@
                                 <fieldset class="form-fieldset">
                                     <legend class="form-fieldset__title">Hable con nosotros</legend>
                                     <div class="form-group">
-                                        <input type="text" class="form-group__input" placeholder="Nombre" id="name">
+                                        <input type="text" class="form-group__input" placeholder="Nombre" id="name"  autocomplete="name">
                                         <label for="name" class="form-group__label"></label>
                                     </div>
                                     <div class="form-group">
